@@ -1,7 +1,7 @@
 import pyautogui as py
 import time
 
-defects = 26
+defects = 1
 i = 0
 while i < defects:
     py.alert('runing script...')
@@ -29,3 +29,5 @@ while i < defects:
     if i == defects:
         break
     i+=1
+
+py.alert('done!')
