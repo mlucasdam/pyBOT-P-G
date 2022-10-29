@@ -3,8 +3,10 @@ import time
 
 defects = 1
 i = 0
+
+py.alert('runing script...')
+
 while i < defects:
-    py.alert('runing script...')
     py.click(x=1160,y=92)
     time.sleep(1)
     py.click(x=289,y=321)
@@ -28,6 +30,6 @@ while i < defects:
 
     if i == defects:
         break
-    i+=1
+    i+=1;
 
-py.alert('done!')
+py.alert('Done!')
