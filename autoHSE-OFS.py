@@ -1,4 +1,3 @@
-from email.policy import default
 import pyautogui as py
 import time
 
