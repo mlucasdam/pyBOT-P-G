@@ -18,16 +18,15 @@ while i < sheet:
     py.write('lv90')
     time.sleep(2)
     
-    py.press(['enter','enter','enter','enter','enter'])
+    py.press(['enter','enter','enter','enter','enter','enter'])
     time.sleep(2)
 
     py.rightClick(x=418, y=148)
     time.sleep(1)
-    py.press(['enter','enter','enter'])
+    py.press(['enter','enter'])
     time.sleep(1)
     py.hotkey('alt', 'tab')
     time.sleep(1)
-
     py.rightClick(x=14,y=275)
     time.sleep(2)
     py.click(x=75,y=439)
