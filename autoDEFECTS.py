@@ -1,7 +1,7 @@
 import pyautogui as py
 import time
 
-defects = 1
+defects = int(py.prompt(title='QUANTIDADE DE REGISTROS', text='quantos registros você quer fazer?', default= '8'))
 i = 0
 
 py.alert('runing script...')

@@ -1,7 +1,7 @@
 import pyautogui as py
 import time
 
-BOS = 8
+BOS = int(py.prompt(title='QUANTIDADE DE REGISTROS', text='quantos registros você quer fazer?', default= '8'))
 i = 0
 
 py.alert('runing script...')
