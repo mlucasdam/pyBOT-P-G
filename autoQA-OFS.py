@@ -18,7 +18,7 @@ while i < OFS:
     time.sleep(1)
     py.click(x=533,y=468)
     time.sleep(1)
-    py.click(x=529,y=688)
+    py.click(x=511,y=653)
     time.sleep(1)
     py.click(x=513,y=578)
     time.sleep(1)
@@ -47,7 +47,7 @@ while i < OFS:
             time.sleep(1)
             py.click(x=594,y=965)
             time.sleep(2)
-            py.click(x=508,y=962)
+            py.click(x=746,y=956)
             time.sleep(1)
 
         elif behavior == 2:
@@ -61,7 +61,7 @@ while i < OFS:
             time.sleep(1)
             py.click(x=594,y=965)
             time.sleep(2)
-            py.click(x=508,y=962)
+            py.click(x=746,y=956)
             time.sleep(1)
 
         elif behavior == 3:
@@ -75,7 +75,7 @@ while i < OFS:
             time.sleep(1)
             py.click(x=594,y=965)
             time.sleep(2)
-            py.click(x=508,y=962)
+            py.click(x=746,y=956)
             time.sleep(1)
     
     elif ofstype == 2:
@@ -93,12 +93,12 @@ while i < OFS:
             py.click(x=880,y=892)
             time.sleep(1)
             py.click(x=565,y=480)
-            py.write('colaborador não manteve a tampa dos lixos fechadas')
+            py.write('colaborador nao manteve a tampa dos lixos fechadas')
             py.click(x=589,y=636)
             time.sleep(1)
             py.click(x=594,y=965)
             time.sleep(2)
-            py.click(x=508,y=962)
+            py.click(x=746,y=956)
             time.sleep(1)
         
         elif behavior == 2: 
@@ -107,12 +107,12 @@ while i < OFS:
             py.click(x=880,y=892)
             time.sleep(1)
             py.click(x=565,y=480)
-            py.write('colaborador não fez o uso correto da toca e avental na area de envase')
+            py.write('colaborador nao fez o uso correto da toca e avental na area de envase')
             py.click(x=589,y=636)
             time.sleep(1)
             py.click(x=594,y=965)
             time.sleep(2)
-            py.click(x=508,y=962)
+            py.click(x=746,y=956)
             time.sleep(1)
 
         elif behavior == 3:
@@ -121,12 +121,12 @@ while i < OFS:
             py.click(x=880,y=892)
             time.sleep(1)
             py.click(x=565,y=480)
-            py.write('colaborador não manteve as portas de transição fechadas')
+            py.write('colaborador nao manteve as portas de transicao fechadas')
             py.click(x=589,y=636)
             time.sleep(1)
             py.click(x=594,y=965)
             time.sleep(2)
-            py.click(x=508,y=962)
+            py.click(x=746,y=956)
             time.sleep(1)
     
     if i == OFS:

@@ -10,7 +10,7 @@ while i < OFS:
     #selecionando HSE OFS
     py.click(x=645,y=342)
     time.sleep(1)
-    py.click(x=708,y=406)
+    py.click(x=750,y=333)
     time.sleep(1)
     py.click(x=651,y=871)
     time.sleep(3)
@@ -100,7 +100,7 @@ while i < OFS:
     
     py.click(x=629, y=954)
     time.sleep(1)
-    py.click(x=512, y=943)
+    py.click(x=753, y=950)
     time.sleep(3)
 
     if i == OFS:
